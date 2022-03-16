@@ -1,0 +1,9 @@
+{% autoescape off %}
+
+Welcome To LearnDjango
+
+Hello {{ name }}!
+
+Confirm Link: http://{{ domain }}{% url 'activate' uid64=uid token=token %}
+
+{% endautoescape %}
